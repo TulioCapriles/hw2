@@ -8,3 +8,6 @@ The idea is to Design, Produce and Commercialize creative thematic furniture for
 The website has the Homepage and 2 more pages:
  1. Our Story
  2. Products
+
+Website URL:
+https://silly-sammet-d9b7a3.netlify.app
