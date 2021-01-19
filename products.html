@@ -1,32 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>products</title>
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" type="text/css">
 </head>
+
+
 <body>
-  <h1>PRODUCTS</h1>
+  <div>
+    <div class="my-8 bg-gray-200 flex">
+      <h1 class="w-1/2 text-xl font-bold text-left m-8">
+        <span>Hi! Welcome to our existing </span>
+        <span>PRODUCT CATALOG</span>
+      </h1>
   
-  <h3>Fire Station Playhouse</h3>
-  <p><img src="https://images.crateandbarrel.com/is/image/Crate/FireStationPlayhouseSHF19/$web_pdp_main_carousel_high$/190607141440/fire-station-playhouse.jpg"></p>
-  <p>No need for alarm! Our Fire Station Playhouse is here to save the day. </p>
-  <p>$99.99</p>
+      <p class="w-1/2 text-2xl font-bold text-right text-purple-500 m-8"></pclass>
+        <a href="index.html">
+          <strong>TOY DECOR </strong> <em>Limitless Fun!!!</em>
+        </a>
+      </p>
+    </div>
 
-  <h3>Jungle Tent Playhouse</h3>
-  <p><img src="https://images.crateandbarrel.com/is/image/Crate/JGPlayhouseSSF20/$web_pdp_main_carousel_high$/200918143300/jane-goodall-playhome.jpg"></p>
-  <p>Part of our exclusive 2021 Collection, this wildlife-themed playhouse was designed to spark kids' curiosity about the natural world.</p>
-  <p>$119.99</p>
+    <div class="flex m-8">
 
-  <h3>Pets Vets Playhouse</h3>
-  <p><img src="https://images.crateandbarrel.com/is/image/Crate/PetVetPlayhomeSSF20/$web_pdp_main_carousel_high$/200916172345/pet-vet-playhouse.jpg"></p>
-  <p>Made for the little animal lover in your life, our Pet Vet Playhouse is the perfect place to treat imaginary critters and plush pals.</p>
-  <p>$99.99</p>
+        <div class="w-1/3">
+          <h2 class="pb-2 text-left text-red-500 font-bold">Fire Station Playhouse</h2>
+          <div class="pr-2">
+            <img class="rounded-xl" src="https://images.crateandbarrel.com/is/image/Crate/FireStationPlayhouseSHF19/$web_pdp_main_carousel_high$/190607141440/fire-station-playhouse.jpg">
+          </div>
+          <div class="py-2 pr-2 text-justify">No need for alarm! Our Fire Station Playhouse is here to save the day.</div>
+          <div class="pt-10 pr-2 font-bold">$99.99</div>
+        </div>
+        <div class="w-1/3">
+          <h2 class="pl-1 pb-2 text-left text-red-500 font-bold">Jungle Tent Playhouse</h2>
+          <div class="pl-1 pr-1">
+            <img class="rounded-xl" src="https://images.crateandbarrel.com/is/image/Crate/JGPlayhouseSSF20/$web_pdp_main_carousel_high$/200918143300/jane-goodall-playhome.jpg">
+          </div>
+          <div class="py-2 px-2 text-justify">Part of our exclusive 2021 Collection, this wildlife-themed playhouse was designed to spark kids' curiosity about the natural world.</div>
+          <div class="pt-4 px-2 font-bold">$119.99</div>
+        </div>
+        <div class="w-1/3">
+          <h2 class="pb-2 pl-2 text-left text-red-500 font-bold">Pets Vets Playhouse</h2>
+          <div class="pl-2">
+            <img class="rounded-xl" src="https://images.crateandbarrel.com/is/image/Crate/PetVetPlayhomeSSF20/$web_pdp_main_carousel_high$/200916172345/pet-vet-playhouse.jpg">
+          </div>
+          <div class="py-2 pl-2 text-justify">Made for the little animal lover in your life, our Pet Vet Playhouse is the perfect place to treat imaginary critters and plush pals.</div>
+          <div class="pt-4 pl-2 font-bold">$99.99</div>
+        </div>
 
-  <h2>For buying other products visit or Partners Amazon Store</h2>
-  <p>Looking for smaller sets <a href=https://www.amazon.com/-/es/stores/Avrsol/page/33D8A0C5-D10F-46EA-A49F-C93F111C87CA?ref_=ast_bln>Tents and Tippees</a></p>
+    </div>
+    
+    <div class="my-12 py-4 bg-gray-200 text-center font-bold">
+      <h2 class="text-2xl">For buying other products visit or Amazon Store Partners</h2>
+      <div class="text-2xl">Looking for smaller sets <a class="underline uppercase font-medium bg-purple-400 rounded text-white" href=https://www.amazon.com/-/es/stores/Avrsol/page/33D8A0C5-D10F-46EA-A49F-C93F111C87CA?ref_=ast_bln>Tents and Tippees</a></div>
+    </div>
 
-  <h2>Do you want to sell our prodcuts? Contact us</h2>
-  <p><a href="mailto:tulio.capriles@kellogg.northwestern.edu">Email us to start selling</a></p>
+
+    <div class="mt-8 text-center">
+      <h1 class="my-4 text-2xl font-bold">Do you want to sell our products? Contact us</h1>
+      <div class="my-8 text-2xl font-bold">By Emailing us <a class="font-medium text-white bg-purple-400 rounded" href="mailto:tulio.capriles@kellogg.northwestern.edu">HERE</a></div>
+      <div class="my-8 text-2xl font-extrabold text-italic uppercase">or</div>
+      <div class="my-4 text-2xl font-bold text-italic ">Submit your Form</div>
+    </div>
+
+    <div class="m-8">
+      <form netlify>
+        <label class="block mt-4 font-bold" for="name">Your name?</label>
+        <input class="p-2 w-64 border border-gray-400 rounded shadow-xl focus:outline-none focus:ring-purple-500
+        focus:border-purple-500" type="text" id="name" name="name">
+  
+        <label class="block mt-4 font-bold" for="email">Your email?</label>
+        <input class="p-2 w-64 border border-gray-400 rounded shadow-xl focus:outline-none focus:ring-purple-500
+        focus:border-purple-500" type="text" id="email" name="email">
+      
+        <label class="block mt-4 font-bold" for="order">Describe your request?</label>
+        <textarea rows="6" class="p-2 w-full border border-gray-400 rounded shadow-xl focus:outline-none focus:ring-purple-500
+        focus:border-purple-500" id="description" name="description"></textarea>
+      
+        <button class="block mt-4 text-white bg-purple-400 rounded px-4 py-2">Submit form!</button>
+      </form>
+    </div>
+  </div>
 </body>
+
 </html>
+
