@@ -9,5 +9,5 @@ The website has the Homepage and 2 more pages:
  1. Our Story
  2. Products
 
-Website URL:
+Website URL from Netlify:
 https://silly-sammet-d9b7a3.netlify.app
